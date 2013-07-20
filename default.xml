@@ -7,6 +7,8 @@
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
+  <remote name="SlimRoms"
+           fetch="git://github.com/SlimRoms/" />
   <remote name="PurityROM"
            fetch="git://github.com/PurityROM/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
