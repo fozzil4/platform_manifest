@@ -334,7 +334,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="PurityROM" revision="4.2.2" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="Mustaavalkosta" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="sm" revision="501d8e25aab57ac36c4206464572dac26a565b5e" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="PurityROM" revision="4.2.2" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="Mustaavalkosta" revision="master" />
