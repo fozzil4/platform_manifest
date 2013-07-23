@@ -9,7 +9,7 @@
   <remote name="PurityROM"
            fetch="git://github.com/PurityROM/" />
   <remote name="rohanmathur"
-           fetch="git://github.com/rohanmathur/mako" />
+           fetch="git://github.com/rohanmathur/" />
   <remote name="Mustaavalkosta"
            fetch="https://github.com/Mustaavalkosta" />
   <default revision="refs/tags/android-4.2.2_r1.2"
