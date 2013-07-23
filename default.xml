@@ -6,6 +6,8 @@
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
+  <remote name="sm"
+           fetch="https://github.com/SaberMod/" />           
   <remote name="PurityROM"
            fetch="git://github.com/PurityROM/" />
   <remote name="rohanmathur"
