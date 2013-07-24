@@ -11,8 +11,8 @@
            fetch="https://github.com/CyanogenMod/" />
   <remote name="PurityROM"
            fetch="git://github.com/PurityROM/" />
-  <remote name="rohanmathur"
-           fetch="git://github.com/rohanmathur/" />
+  <remote name="engstk"
+           fetch="git://github.com/engstk/" />
   <remote name="koush"
            fetch="https://github.com/koush/" />
   <remote name="aokp"
@@ -64,10 +64,10 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
-  <project path="device/lge/mako-kernel" name="mako" groups="device,mako" remote="rohanmathur" revision="jb-mr1" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="sm" revision="sm-jb-mr1" />
   <project path="kernel/asus/grouper" name="Kernel-Grouper" remote="sm" revision="sm-jb-mr1-wip" />
-  <project path="kernel/lge/mako" name="mako" remote="rohanmathur" revision="jb-mr1" />
+  <project path="kernel/lge/mako" name="mako" remote="engstk" revision="nightlles" />
   <project path="kernel/samsung/manta" name="samsung_kernel_manta" remote="sm" revision="sm-jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="sm" revision="sm-jb-mr1" />
