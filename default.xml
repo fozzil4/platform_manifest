@@ -64,7 +64,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="mako" groups="device,mako" remote="rohanmathur" revision="jb-mr1" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="sm" revision="sm-jb-mr1" />
   <project path="kernel/asus/grouper" name="Kernel-Grouper" remote="sm" revision="sm-jb-mr1-wip" />
   <project path="kernel/lge/mako" name="mako" remote="rohanmathur" revision="jb-mr1" />
