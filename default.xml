@@ -59,7 +59,8 @@
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr1" />
   <project path="device/lge/iprj-common" name="AOKP/device_lge_iprj-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/mako-kernel" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="sm" revision="sm-jb-mr1" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="sm" revision="sm-jb-mr1" />
   <project path="device/lge/p930" name="AOKP/device_lge_p930" remote="aokp" revision="jb-mr1" />
   <project path="device/lge/su640" name="AOKP/device_lge_su640" remote="aokp" revision="jb-mr1" />
