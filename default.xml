@@ -1,4 +1,4 @@
-    <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
       <remote  name="aosp"
@@ -383,4 +383,4 @@
       <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
       <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-    </manifest>
+</manifest>
