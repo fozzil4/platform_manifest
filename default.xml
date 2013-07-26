@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
 
-      <remote  name="aosp"
-               fetch=".." />
-      <default revision="refs/tags/android-4.3_r2.1"
-               remote="aosp"
-               sync-j="4" />
+      <remote name="aosp"
+               fetch="https://android-review.googlesource.com/" />
 
       <remote name="sm"
                fetch="https://github.com/SaberMod/"
@@ -15,6 +12,10 @@
       <remote name="cm"
                fetch="https://github.com/CyanogenMod/"
                sync-c="true"
+               sync-j="4" />
+  
+      <default revision="refs/tags/android-4.3_r2.1"
+               remote="aosp"
                sync-j="4" />
 
       <project path="build" name="platform/build" groups="pdk" >
