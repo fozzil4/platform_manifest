@@ -9,8 +9,8 @@
            fetch="git://github.com/CyanogenMod" />
   <remote name="aospz" 
            fetch="https://github.com/AOSPZMod" />
-  <remote name="aokp"  
-           fetch="https://github.com/" />
+  <remote name="SlimRoms"  
+           fetch="https://github.com/SlimRoms />
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
@@ -300,7 +300,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="aokp" revision="jb4.3" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="SlimRoms" revision="jb4.3" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
