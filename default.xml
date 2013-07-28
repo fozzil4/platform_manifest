@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-           fetch=".." />
+           fetch="https://android-review.googlesource.com/" />
   <remote name="jar"
            fetch="git://github.com/jarjar124" />
   <remote name="cm"
