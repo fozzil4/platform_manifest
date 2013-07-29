@@ -7,8 +7,8 @@
            fetch="git://github.com/jarjar124" />
   <remote name="cm"
            fetch="git://github.com/CyanogenMod" />
-  <remote name="aospz" 
-           fetch="https://github.com/AOSPZMod" />
+  <remote name="PurityROM"
+           fetch="git://github.com/PurityROM/" />
   <remote name="SlimRoms"  
            fetch="https://github.com/SlimRoms" />
   <default revision="refs/tags/android-4.3_r2.1"
@@ -210,7 +210,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="aospz" revision="jb-mr2-mod"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="PurityROM" revision="4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -293,7 +293,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" revision="jb-mr2-mod"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
