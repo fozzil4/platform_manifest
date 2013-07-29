@@ -3,33 +3,35 @@
 
   <remote name="aosp"
            fetch="https://android-review.googlesource.com/" />
-  <remote name="jar"
-           fetch="git://github.com/jarjar124" />
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod" />
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />
   <remote name="PurityROM"
            fetch="git://github.com/PurityROM/" />
-  <remote name="SlimRoms"  
-           fetch="https://github.com/SlimRoms" />
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="jar" revision="jb-mr2.0" groups="pdk" >
+  <project path="build" name="platform_build" groups="pdk" remote="PurityROM" revision="4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="PurityROM" revision="4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.2" />
+  <project path="dalvik" name="platform_dalvik" remote="PurityROM" revision="4.3" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="refs/tags/android-4.3_r2.1_" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -41,9 +43,15 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
+  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="PurityROM" revision="4.3" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
+  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" groups="device,tuna" remote="PurityROM" revision="4.3" />
+  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -61,6 +69,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -270,9 +279,9 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -280,15 +289,15 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="PurityROM" revision="4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -300,7 +309,6 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="SlimRoms" revision="jb4.3" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -365,7 +373,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="PurityROM" revision="4.3" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
