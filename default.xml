@@ -10,7 +10,7 @@
            review="review.cyanogenmod.org" />
 
   <remote name="CyanKang"
-           fetch="https://github.com/CyanKang/"
+           fetch="https://github.com/CyanKang/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
