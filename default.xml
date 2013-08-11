@@ -11,6 +11,9 @@
 
   <remote name="CyanKang"
            fetch="https://github.com/CyanKang/" />
+           
+  <remote name="Matr1x"
+           fetch="https://github.com/mathkid95/" />
 
   <remote name="private"
            fetch="ssh://git@github.com" />
