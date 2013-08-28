@@ -11,6 +11,9 @@
 
   <remote name="private"
            fetch="ssh://git@github.com" />
+  
+  <remote name="psx"
+           fetch="https://github.com/PSX-PureSpeed" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -291,7 +294,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" />
+  <project path="ndk" name="platform_ndk" remote="psx" revision="jb-4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="scotthartbti/android_packages_apps_Bluetooth" revision="jb43" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
