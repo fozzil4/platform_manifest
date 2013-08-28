@@ -12,7 +12,7 @@
           review="review.cyanogenmod.com" />
   <remote name="psx"
            fetch="https://github.com/PSX-PureSpeed" />
-  <remote name="fozzik"
+  <remote name="fozzil"
            fetch="https://github.com/fozzil4" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
