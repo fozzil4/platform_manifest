@@ -14,6 +14,10 @@
   
   <remote name="psx"
            fetch="https://github.com/PSX-PureSpeed" />
+    
+  <remote name="vanir"
+           fetch="https://github.com/VanirAOSP/"
+           review="vaniraosp.goo.im" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -27,11 +31,11 @@
   <project path="android" name="fozzil4/platform_manifest" revision="4.3" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="vanir" revision="jb43" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.2" groups="cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb43" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
@@ -189,8 +193,8 @@
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/ping" name="CyanogenMod/android_external_ping" />
-  <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
+  <project path="external/ping" name="platform_external_ping" remote="vanir" revision="jb43" />
+  <project path="external/ping6" name="platform_external_ping6" remote="vanir" revision="jb43" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" />
@@ -205,7 +209,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="platform_external_skia" remote="vanir" revision="jb43" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -292,7 +296,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="platform_libcore" remote="vanir" revision="jb43" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
