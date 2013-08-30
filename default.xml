@@ -14,6 +14,8 @@
            fetch="https://github.com/PSX-PureSpeed" />
   <remote name="fozzil"
            fetch="https://github.com/fozzil4" />
+  <remote name="scotthartbti"
+           fetch="https://github.com/scotthartbti" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
   <remote name="github"
@@ -233,14 +235,14 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb43" groups="pdk" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="vanir" revision="jb43" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="scotthartbti" revision="jb43" />
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="vanir" revision="jb43" />
   <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" remote="vanir" revision="jb43" groups="pdk" />
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="vanir" revision="jb43" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
-  <project path="frameworks/native" name="platform_framworks_native" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="scotthartbti" revision="jb43" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
