@@ -372,8 +372,10 @@
   <project path="platform_manifest" name="fozzil4/platform_manifest" remote="github" revision="4.3" />
 
   <!-- New Additions for slim -->
+  <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="github" revision="jb4.3" />
   <project path="vendor/lge" name="CarbonDev/proprietary_vendor_lge" remote="github" revision="jb3" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.3" />
+  <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="jb4.3" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
