@@ -30,6 +30,7 @@
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/lge/mako" name="SlimRoms/device_lge_mako" groups="device,mako" remote="github" revision="jb4.3" />
+  <project path="kernel/lge/mako" name="SlimRoms/kernel_lge_mako" remote="github" revision="jb4.3" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
