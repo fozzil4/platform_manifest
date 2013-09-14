@@ -8,7 +8,7 @@
            fetch="ssh://git@github.com" />
            
   <remote name="github"
-           fetch="https://github.com"
+           fetch="https://github.com" />
 
   <remote name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
