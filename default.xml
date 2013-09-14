@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+          
+  <remote name="sm"
+           fetch="git://github.com/SaberMod/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
