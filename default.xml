@@ -9,7 +9,6 @@
            
   <remote name="github"
            fetch="https://github.com"
-           review="http://gerrit.colormeparanoid.com/" />
 
   <remote name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
