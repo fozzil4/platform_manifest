@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+           
+  <remote name="DJLIII"
+           fetch="https://github.com/DJL10-2/" />
           
   <remote name="sm"
            fetch="git://github.com/SaberMod/" />
@@ -62,7 +65,7 @@
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bash" name="android_external_bash" remote="DJLIII" revision="DJL10.2" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="DJL10-2/android_external_bluetooth_bluedroid" remote="github" revision="DJL10.2" />
@@ -78,10 +81,10 @@
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="DJLIII" revision="DJL10.2" />
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="DJLIII" revision="DJL10.2" />
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
@@ -187,13 +190,13 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
+  <project path="external/openssh" name="android_external_openssh" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/openssl" name="android_external_openssl" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="DJLIII" revision="DJL10.2" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/ping" name="CyanogenMod/android_external_ping" />
-  <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
+  <project path="external/ping" name="android_external_ping" remote="DJLIII" revision="DJL10.2" />
+  <project path="external/ping6" name="android_external_ping6" remote="DJLIII" revision="DJL10.2" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" />
@@ -217,7 +220,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
+  <project path="external/stlport" name="android_external_stlport" remote="DJLIII" revision="DJL10.2" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
