@@ -136,7 +136,7 @@
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
-  <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" groups="pdk" />
+  <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r1.1" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" groups="pdk" />
   <project path="external/libmtp" name="CyanogenMod/android_external_libmtp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
