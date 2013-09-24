@@ -140,8 +140,8 @@
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" groups="pdk" />
   <project path="external/libmtp" name="CyanogenMod/android_external_libmtp" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
