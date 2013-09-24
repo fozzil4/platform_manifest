@@ -334,7 +334,7 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="VanirAOSP/packages_providers_DownloadProvider" remote="github" revision="jb43" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" /> 
   <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
   <project path="packages/providers/MediaProvider" name="VanirAOSP/platform_packages_providers_MediaProvider" remote="github" revision="jb43" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
