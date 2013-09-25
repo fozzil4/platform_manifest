@@ -306,8 +306,6 @@
   <project path="packages/apps/Browser" name="scotthartbti/android_packages_apps_Browser" remote="github" revision="jb43" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CertInstaller" name="ChameleonOS/android_packages_apps_CertInstaller" remote="github" revision="jellybean-mr2.1" />
-  <project path="packages/apps/ChaOSLauncher" name="ChameleonOS/android_packages_apps_ChaOSLauncher" remote="github" revision="jellybean-mr2.1" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
