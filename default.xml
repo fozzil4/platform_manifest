@@ -319,7 +319,7 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="VanirAOSP/platform_packages_apps_PackageInstaller" remote="github" revision="jb43" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Phone" name="cristianomatos/android_packages_apps_Phone" remote="github" revision="cr-main-10.2" /> 
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Settings" name="cristianomatos/android_packages_apps_Settings" remote="github" revision="cr-main-10.2" />
