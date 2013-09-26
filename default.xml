@@ -317,7 +317,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="jb4.3" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="jb4.3" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jb4.3" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.3" /> 
