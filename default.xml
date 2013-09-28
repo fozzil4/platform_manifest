@@ -148,47 +148,47 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="VanirAOSP/platform_external_libpng" remote="github" revision="jb43" groups="pdk" />
-  <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
+  <project path="external/libppp" name="platform/external/libppp" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
-  <project path="external/libusb" name="CyanogenMod/android_external_libusb" />
+  <project path="external/libusb" name="platform/external/libusb" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
-  <project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
-  <project path="external/libvorbis" name="CyanogenMod/android_external_libvorbis" />
-  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
-  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" />
-  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
-  <project path="external/libyuv" name="CyanogenMod/android_external_libyuv" groups="libyuv" />
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
-  <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
+  <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="jb4.3" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
-  <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" groups="pdk" />
-  <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
+  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/mockwebserver" name="CyanogenMod/android_external_mockwebserver" />
-  <project path="external/mp4parser" name="CyanogenMod/android_external_mp4parser" />
-  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" />
-  <project path="external/naver-fonts" name="CyanogenMod/android_external_naver-fonts" />
-  <project path="external/netcat" name="CyanogenMod/android_external_netcat" />
-  <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
-  <project path="external/neven" name="CyanogenMod/android_external_neven" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/neven" name="platform/external/neven" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
-  <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
+  <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" />
+  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
-  <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
+  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/openssh" name="platform/external/openssh" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="external/openssl" name="platform/external/openssl" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="PSX-PureSpeed/android_external_oprofile" remote="github" revision="jb-4.3" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
