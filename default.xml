@@ -47,7 +47,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
-  <project path="kernel/google/msm" name="anarkia1976/AK-xCrossin" remote="github" revision="ak-cm10.2-004" />
+  <project path="kernel/google/msm" name="anarkia1976/AK-xCrossing" remote="github" revision="ak-cm10.2-004" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
