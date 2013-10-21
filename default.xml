@@ -50,7 +50,7 @@ review="review.cyanogenmod.org" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/lge/mako" name="ParanoidAndroid/android_device_lge_mako" groups="device,mako" remote="github" revision="jb43" />
+  <project path="device/lge/mako" name="PSX-PureSpeed/device_lge_mako" groups="device,mako" remote="github" revision="jb-4.3" />
   <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="jb-4.3" />
   <project path="kernel/lge/mako" name="PSX-PureSpeed/kernel_lge_mako" remote="github" revision="jb-4.3" />
   <project path="device/sample" name="device/sample" groups="pdk" />
