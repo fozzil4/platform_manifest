@@ -274,7 +274,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/lge/mako" name="PSX-PureSpeed/kernel_lge_mako" remote="github" revision="jb-4.3" /> 
-  <project path="libcore" name="android_libcore" remote="moddedpa" revision="jb43" />
+  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="jb-4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
