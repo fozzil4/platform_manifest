@@ -24,19 +24,19 @@ review="review.cyanogenmod.org" />
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43" >
+  <project path="build" name="ModdedPA/android_build" remote="github" revision="jb43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="manifest" name="ParanoidAndroid/manifest" remote="github" revision="jb43" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="ModdedPA/android_bionic" remote="github" revision="jb43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.3" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="ParanoidAndroid/android_dalvik" remote="github" revision="jb43" />
+  <project path="dalvik" name="ModdedPA/android_dalvik" remote="github" revision="jb43" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
