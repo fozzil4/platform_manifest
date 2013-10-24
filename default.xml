@@ -34,7 +34,7 @@
   <project path="manifest" name="manifest" remote="moddedpa" revision="jb43" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="CarbonDev/android_bionic" remote="github" revision="jb3" />
+  <project path="bionic" name="android_bionic" remote="moddedpa" revision="jb43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="ParanoidAndroid/android_bootable_recovery" remote="github" revision="jb43" />
