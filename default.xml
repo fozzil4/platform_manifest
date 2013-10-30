@@ -11,9 +11,6 @@
 
   <remote name="private"
            fetch="ssh://git@github.com" />
-           
-  <remote name="linaro"
-          fetch="git://android.git.linaro.org/" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -282,18 +279,18 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" revision="master" remote="aosp" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="master" remote="aosp" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="master" remote="aosp" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="master" remote="aosp" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" revision="master" remote="aosp" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="master" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
