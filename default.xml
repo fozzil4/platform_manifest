@@ -276,7 +276,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
