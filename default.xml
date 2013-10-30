@@ -271,14 +271,14 @@
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
-  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -291,12 +291,12 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="jb-4.3" /> 
