@@ -295,7 +295,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
