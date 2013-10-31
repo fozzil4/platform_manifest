@@ -51,7 +51,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/lge/mako" name="PSX-PureSpeed/device_lge_mako" groups="device,mako" remote="github" revision="jb-4.3" />
+  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="jb-mr2" groups="notdefault,device,mako" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
