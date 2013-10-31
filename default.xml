@@ -52,7 +52,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
   <project path="device/lge/mako" name="PSX-PureSpeed/device_lge_mako" groups="device,mako" remote="github" revision="jb-4.3" />
-  <project path="kernel/lge/mako" name="PSX-PureSpeed/kernel_lge_mako" remote="github" revision="jb-4.3" />
+  <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
