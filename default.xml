@@ -389,7 +389,7 @@
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="jb-4.3" />
+  <project path="vendor/lge" name="CarbonDev/proprietary_vendor_lge" remote="github" revision="jb3" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
