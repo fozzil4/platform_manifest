@@ -21,8 +21,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kk-4.4" />
   <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="kk-4.4" />
