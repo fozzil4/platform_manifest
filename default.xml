@@ -323,7 +323,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kk-4.4" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
