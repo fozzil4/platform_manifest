@@ -289,7 +289,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kk-4.4" />
+  <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
