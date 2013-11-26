@@ -311,6 +311,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="hardware/qcom/display" name="omnirom/android_hardware_qcom_display" remote="github" revision="android-4.4" />
   <project path="hardware/qcom/display-caf" name="omnirom/android_hardware_qcom_display-caf" remote="github" revision="android-4.4" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="hardware/qcom/media" name="omnirom/android_hardware_qcom_media" remote="github" revision="android-4.4" />
   <project path="hardware/qcom/media-caf" name="omnirom/android_hardware_qcom_media-caf" remote="github" revision="android-4.4" />
