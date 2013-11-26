@@ -22,12 +22,12 @@
   </project>
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kk-4.4" />
-  <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="kk-4.4" />
+  <project path="art" name="CyanogenMod/android_art" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4_r1.2" groups="cts" />
-  <project path="dalvik" name="LiquidSmooth/android_dalvik" remote="github" revision="kitkat" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
