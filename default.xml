@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="kk-4.4" >
+  <project path="build" name="rascarlo/android_build" groups="pdk" remote="github" revision="kk-ras-mr1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -405,9 +405,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4" />
-  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kk-4.4" />
-  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="kk-4.4" />
-  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4" />
+  <project path="vendor/lge" name="rascarlo/android_vendor_lge" remote="github" revision="kk-ras-mr1" />
+  <project path="vendor/rascarlo" name="rascarlo/android_vendor_rascarlo" remote="github" revision="kk-ras-mr1" />
   
 </manifest>
