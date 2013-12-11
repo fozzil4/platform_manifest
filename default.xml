@@ -42,6 +42,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" remote="github" revision="kk-4.4" />
   <project path="device/lge/mako-kernel" name="Mahdi-Rom/android_device_lge_mako-kernel" remote="github" revision="kk-4.4" />
+  <project path="kernel/lge/mako" name="Mahdi-Rom/android_kernel_lge_mako" remote="github" revision="kk-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -431,7 +432,10 @@
 
   <!--CyanogenMod Power Hal -->
   <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4" />
-
+  
+  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kk-4.4.1" />
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" />
+  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4.1" />
 
 </manifest>
