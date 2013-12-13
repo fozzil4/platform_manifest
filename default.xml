@@ -20,7 +20,7 @@
   <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="psx_v3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="PSX-PureSpeed/android_dalvik" remote="github" revision="psx_v3" />
   <project path="developers/build" name="platform/developers/build" />
