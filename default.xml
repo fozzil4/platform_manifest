@@ -12,11 +12,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="psx_v3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4" />
+  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="psx_v3" />
   <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="psx_v3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -406,7 +406,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="psx_v3" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
