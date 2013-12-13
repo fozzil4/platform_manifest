@@ -408,7 +408,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- New Additions for slim -->
+  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="psx_v3" />
+  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="psx_v3" />
   <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="psx_v3" />
+  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="psx_v3" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
