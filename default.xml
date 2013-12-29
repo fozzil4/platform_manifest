@@ -244,7 +244,7 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rascarlo" revision="kk-ras-mr1.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
