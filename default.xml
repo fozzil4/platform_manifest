@@ -102,8 +102,8 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="master" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="master" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
@@ -346,8 +346,8 @@
   <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
   <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" revision="master" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux"  remote="aosp" revision="master" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
@@ -380,15 +380,15 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
-  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="platform/sdk" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="master" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="master" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="master" />
+  <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
