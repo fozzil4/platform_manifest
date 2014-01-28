@@ -91,7 +91,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="master" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="master" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="master" />
-  <project path="external/clang" name="Velocity-Project/external_clang" groups="pdk" remote="github" revision="4.4.2" 
+  <project path="external/clang" name="Velocity-Project/external_clang" groups="pdk" remote="github" revision="4.4.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" revision="master" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
