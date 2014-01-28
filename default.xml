@@ -431,6 +431,7 @@
   <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="kk-4.4" />
 
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/PerformanceControl" name="Mahdi-Rom/android_packages_apps_PerformanceControl" remote="github" revision="kk-4.4" />
 
   <!-- CyanogenMod H/W suppport -->
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
