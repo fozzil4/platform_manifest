@@ -45,6 +45,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+  <project path="kernel/google/msm" name="hellsgod/kernel_msm" remote="github" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="master" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
