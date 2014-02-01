@@ -416,7 +416,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-11.0" />
 
   <!-- Old-Droid -->
-  <project path="vendor/github" name="Old-Droid/platform_vendor_github" remote="github" revision="kitkat" />
+  <project path="vendor/olddroid" name="Old-Droid/platform_vendor_olddroid" remote="github" revision="kitkat" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
