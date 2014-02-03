@@ -53,7 +53,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="aospal" revision="kitkat" />
-  <project path="bionic" name="android_bionic" remote="aospal" revision="kitkat" />
+  <project path="bionic" name="Velocity-Project/bionic" remote="github" revision="4.4.2" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -124,7 +124,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="android_external_clang" remote="aospal" revision="kitkat" />
+  <project path="external/clang" name="Velocity-Project/external_clang" groups="pdk" remote="github" revision="4.4.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -201,7 +201,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/llvm" name="Velocity-Project/external_llvm" groups="pdk" remote="github" revision="4.4.2" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -242,7 +242,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="aospal" revision="kitkat" />
+  <project path="external/skia" name="Velocity-Project/skia" remote="github" revision="4.4.2" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -274,7 +274,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="aospal" revision="kitkat-remix" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospal" revision="kitkat-remix" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="aospal" revision="kitkat" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="aospal" revision="kitkat" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
