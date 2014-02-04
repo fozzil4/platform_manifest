@@ -57,13 +57,13 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts" />
+  <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="master" />
   <project path="dalvik" name="VanirAOSP/dalvik" remote="github" revision="kk44" />
-  <project path="developers/build" name="platform/developers/build" />
-  <project path="developers/demos" name="platform/developers/demos" />
-  <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" />
+  <project path="developers/build" name="platform/developers/build" remote="aosp" revision="master" />
+  <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="master" />
+  <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="master" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="master" />
+  <project path="development" name="platform/development" remote="aosp" revision="master" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -78,17 +78,17 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revision="kitkat" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
-  <project path="external/ant-glob" name="platform/external/ant-glob" />
-  <project path="external/antlr" name="platform/external/antlr" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" />
-  <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="master" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="master" />
+  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="master" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" remote="aosp" revision="master" />
+  <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="master" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="master" />
+  <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="master" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="master" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="master" />
+  <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="master" />
+  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" revision="master" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="aospal" revision="kitkat" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
