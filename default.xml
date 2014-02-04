@@ -58,7 +58,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="master" />
-  <project path="dalvik" name="VanirAOSP/dalvik" remote="github" revision="kk44" />
+  <project path="dalvik" name="Velocity-Project/dalvik" remote="github" revision="4.4.2" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="master" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="master" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="master" />
