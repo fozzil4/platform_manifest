@@ -251,7 +251,7 @@
   <project path="external/srec" name="platform/external/srec" remote="aosp" revision="master" />
   <project path="external/srtp" name="platform/external/srtp" remote="aosp" revision="master" />
   <project path="external/stlport" name="Velocity-Project/external_stlport" groups="pdk" remote="github" revision="4.4.2" />
-  <project path="external/strace" name="platform/external/strace" remote="aosp" revision="master" />
+  <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" remote="aosp" revision="master" />
   <project path="external/tagsoup" name="platform/external/tagsoup" remote="aosp" revision="master" />
   <project path="external/tcpdump" name="platform/external/tcpdump" remote="aosp" revision="master" />
