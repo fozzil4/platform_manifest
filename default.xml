@@ -197,7 +197,7 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" revision="master" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" revision="master" />
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="master" />
-  <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="master" />
+  <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" remote="aosp" revision="master" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
