@@ -58,7 +58,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="master" />
-  <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat" />
+  <project path="dalvik" name="KitKatPurity/platform_dalvik" remote="github" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="master" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="master" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="master" />
