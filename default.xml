@@ -199,29 +199,29 @@
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="master" />
   <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="master" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" remote="aosp" revision="master" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
-  <project path="external/littlemock" name="platform/external/littlemock" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="aosp" revision="master" />
+  <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="master" />
   <project path="external/llvm" name="Velocity-Project/external_llvm" groups="pdk" remote="github" revision="4.4.2" />
-  <project path="external/lzma" name="platform/external/lzma" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" />
-  <project path="external/markdown" name="platform/external/markdown" />
-  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
+  <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="master" />
+  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="master" />
+  <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="master" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" revision="master" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="master" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
-  <project path="external/mockito" name="platform/external/mockito" />
-  <project path="external/mockwebserver" name="platform/external/mockwebserver" />
-  <project path="external/mp4parser" name="platform/external/mp4parser" />
-  <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/naver-fonts" name="platform/external/naver-fonts" />
-  <project path="external/netcat" name="platform/external/netcat" />
-  <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nist-pkits" name="platform/external/nist-pkits" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/objenesis" name="platform/external/objenesis" />
-  <project path="external/okhttp" name="platform/external/okhttp" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="aosp" revision="master" />
+  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="master" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="master" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" remote="aosp" revision="master" />
+  <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="master" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" remote="aosp" revision="master" />
+  <project path="external/netcat" name="platform/external/netcat" remote="aosp" revision="master" />
+  <project path="external/netperf" name="platform/external/netperf" remote="aosp" revision="master" />
+  <project path="external/neven" name="platform/external/neven" remote="aosp" revision="master" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="master" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="master" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="master" />
+  <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="master" />
+  <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="master" />
+  <project path="external/okhttp" name="platform/external/okhttp" remote="aosp" revision="master" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="master" />
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="master" />
   <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="master" />
@@ -230,8 +230,8 @@
   <project path="external/oprofile" name="android_external_oprofile" remote="aospal" revision="kitkat" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="master" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" remote="aosp" revision="master" />
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" revision="master" />
   <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="master" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="master" />
   <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="master" />
