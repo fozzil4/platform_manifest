@@ -294,10 +294,10 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aospal" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="aospal" revision="kitkat" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" />
+  <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="master" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="master" />
+  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="master" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" remote="aosp" revision="master" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="aospal" revision="kitkat" />
   <project path="hardware/akm" name="platform/hardware/akm" />
@@ -388,7 +388,7 @@
   <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-remix" />
   <project path="system/extras" name="android_system_extras" remote="aospa" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="master" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" revision="master" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" revision="master" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="master" />
