@@ -58,7 +58,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="master" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="android_dalvik" remote="aospal" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="master" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="master" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="master" />
@@ -379,8 +379,8 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="master" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="master" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="master" />
@@ -388,8 +388,8 @@
   <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-remix" />
   <project path="system/extras" name="android_system_extras" remote="aospa" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="master" />
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" revision="master" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" revision="master" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="master" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="master" />
