@@ -206,7 +206,7 @@
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="master" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
@@ -222,14 +222,14 @@
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
-  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
-  <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openfst" name="platform/external/openfst" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="master" />
+  <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="master" />
+  <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="master" />
   <project path="external/openssh" name="android_external_openssh" remote="aospal" revision="kitkat" />
   <project path="external/openssl" name="android_external_openssl" remote="aospal" revision="kitkat" />
   <project path="external/oprofile" name="android_external_oprofile" remote="aospal" revision="kitkat" />
-  <project path="external/pixman" name="platform/external/pixman" />
-  <project path="external/ppp" name="platform/external/ppp" />
+  <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="master" />
+  <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="master" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="master" />
