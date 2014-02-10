@@ -231,7 +231,7 @@
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="master" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" remote="aosp" revision="master" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" revision="master" />
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="master" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="master" />
   <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="master" />
