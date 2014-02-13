@@ -320,7 +320,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" revision="master" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" revision="master" />
   <project path="hardware/ril" name="Velocity-Project/hardware_ril" groups="pdk" remote="github" revision="4.4.2" />
-  <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat" />
+  <project path="libcore" name="Velocity-Project/libcore" remote="github" revision="4.4.2" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -399,7 +399,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="master" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
   <project path="system/core" name="Velocity-Project/system_core" remote="github" revision="4.4.2" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="aospa" revision="kitkat"/>
+  <project path="system/extras" name="Velocity-Project/system_extras" groups="pdk" remote="github" revision="4.4.2" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
