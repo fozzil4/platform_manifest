@@ -76,7 +76,9 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revision="kitkat" />
+  <project path="device/lge/mako" name="Velocity-Project/device_mako" groups="device,mako" remote="github" revision="4.4.2" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="kernel/lge/mako" name="Velocity-Project/mako_kernel" remote="github" revision="4.4.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="master" />
   <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="master" />
@@ -306,6 +308,17 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/audio" name="Velocity-Project/qcom_audio" groups="qcom" remote="github" revision="4.4.2" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" revision="master" />
+  <project path="hardware/qcom/camera" name="Velocity-Project/qcom_camera" remote="github" revision="4.4.2" groups="qcom" />
+  <project path="hardware/qcom/display" name="Velocity-Project/qcom_display" remote="github" revision="4.4.2" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
+  <project path="hardware/qcom/media" name="Velocity-Project/qcom_media" groups="qcom" remote="github" revision="4.4.2" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="master" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" revision="master" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" revision="master" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" revision="master" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" revision="master" />
   <project path="hardware/ril" name="Velocity-Project/hardware_ril" groups="pdk" remote="github" revision="4.4.2" />
   <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -406,6 +419,8 @@
  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+
+ <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="blobs" revision="kitkat" />
 
 
 </manifest>
