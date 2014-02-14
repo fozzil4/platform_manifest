@@ -76,9 +76,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/lge/mako" name="Velocity-Project/device_mako" groups="device,mako" remote="github" revision="4.4.2" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="kernel/lge/mako" name="Velocity-Project/mako_kernel" remote="github" revision="4.4.2" />
+  <project path="device/lge/mako" name="AOSPA/android_device_lge_mako" remote="github" revision="kitkat" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="master" />
   <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="master" />
@@ -126,20 +124,20 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="master" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="master" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="master" />
-  <project path="external/clang" name="Velocity-Project/external_clang" groups="pdk" remote="github" revision="4.4.2" />
+  <project path="external/clang" name="android_external_clang" remote="aospal" revision="kitkat" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" revision="master" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="Velocity-Project/external_dnsmasq" groups="pdk" remote="github" revision="4.4.2" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="aospal" revision="kitkat" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="Velocity-Project/external_e2fsprogs" groups="pdk" remote="github" revision="4.4.2" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="aospal" revision="kitkat" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
-  <project path="external/elfutils" name="Velocity-Project/external_elfutils" remote="github" revision="4.4.2" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -166,7 +164,7 @@
   <project path="external/iproute2" name="Velocity-Project/external_iproute2" groups="pdk" remote="github" revision="4.4.2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="Velocity-Project/external_iputils" remote="github" revision="4.4.2" />
+  <project path="external/iputils" name="android_external_iputils" remote="aospal" revision="kitkat" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -311,16 +309,16 @@
   <project path="hardware/qcom/audio" name="Velocity-Project/qcom_audio" groups="qcom" remote="github" revision="4.4.2" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" revision="master" />
   <project path="hardware/qcom/camera" name="Velocity-Project/qcom_camera" remote="github" revision="4.4.2" groups="qcom" />
-  <project path="hardware/qcom/display" name="Velocity-Project/qcom_display" remote="github" revision="4.4.2" groups="qcom" />
+  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="Velocity-Project/qcom_media" groups="qcom" remote="github" revision="4.4.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="master" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" revision="master" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" revision="master" />
+  <project path="hardware/qcom/power" name="AOSPA/android_hardware_qcom_power" groups="qcom" remote="github" revision="kitkat" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" revision="master" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" revision="master" />
   <project path="hardware/ril" name="Velocity-Project/hardware_ril" groups="pdk" remote="github" revision="4.4.2" />
-  <project path="libcore" name="Velocity-Project/libcore" remote="github" revision="4.4.2" />
+  <project path="libcore" name="android_libcore" remote="aospal" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -398,8 +396,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="master" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
-  <project path="system/core" name="Velocity-Project/system_core" remote="github" revision="4.4.2" groups="pdk" />
-  <project path="system/extras" name="Velocity-Project/system_extras" groups="pdk" remote="github" revision="4.4.2" />
+  <project path="system/core" name="android_system_core" remote="aospal" revision="kitkat-remix" />
+  <project path="system/extras" name="android_system_extras" remote="aospa" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -419,8 +417,6 @@
  <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-
- <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="blobs" revision="kitkat" />
 
 
 </manifest>
