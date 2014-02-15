@@ -13,9 +13,8 @@
   <remote name="sm"
            fetch="https://github.com/SaberMod" />
            
-  <remote name="linaro"
-           fetch="git://android.git.linaro.org/"
-           review="https://review.android.git.linaro.org/" />	
+  <remote name="linaro-other"
+           fetch="git://git.linaro.org/"/>
 
   <remote name="omni"
            fetch="https://github.com/omnirom" />
