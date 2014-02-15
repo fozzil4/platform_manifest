@@ -399,7 +399,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" revision="master" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" revision="master" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="master" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="master" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="master" />
