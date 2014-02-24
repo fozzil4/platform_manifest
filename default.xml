@@ -65,7 +65,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="android_external_chromium" remote="snak3ater" revision="kk" />
+  <project path="external/chromium" name="snak3ater/android_external_chromium" remote="github" revision="kk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="platform/external/chromium_org" />
