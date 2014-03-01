@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="fozzil4/android_build" groups="pdk" remote="github" revision="kk-ras-mr1.2_r2" >
+  <project path="build" name="fozzil4/android_build" groups="pdk" remote="github" revision="kk-ras-mr1.2_r2" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
     <copyfile src="lazyClobber.sh" dest="lazyClobber.sh" />
@@ -24,7 +24,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts" />
+  <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="master" />
   <project path="dalvik" name="Velocity-Project/dalvik" remote="github" revision="new" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -293,7 +293,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="Velocity-Project/libcore" remote="github" revision="new" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -344,7 +344,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/services/Telephony" name="rascarlo/android_packages_services_telephony" remote="github" revision="kk-ras-mr1.2_r2" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" revision="master" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
@@ -392,7 +392,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="platform/sdk" />
+  <project path="sdk" name="platform/sdk" remote="aosp" revision="master" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="rascarlo/android_system_extras" remote="github" groups="pdk" revision="kk-ras-mr1.2_r2" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
