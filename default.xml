@@ -128,11 +128,11 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="aospal" revision="kitkat" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="aospal" revision="kitkat" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
