@@ -52,13 +52,13 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSPA/android_art" remote="github" revision="kitkat" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="github" revision="kitkat" />
+  <project path="art" name="Velocity-Project/art" remote="github" revision="new" />
+  <project path="bionic" name="Velocity-Project/bionic" remote="github" revision="new" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="Velocity-Project/dalvik" remote="github" revision="new" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
