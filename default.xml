@@ -76,9 +76,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/lge/mako" name="fozzil4/android_device_lge_mako" groups="device,mako" remote="github" revision="kitkat" />
-  <project path="device/lge/mako-kernel" name="OpenMaster/device_mako-kernel" groups="device,mako" clone-depth="1" remote="github" revision="master" />
-  <project path="kernel/lge/mako" name="Velocity-Project/mako_kernel" remote="github" revision="4.4.2" />
+  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="aospal" revision="kitkat" />
+  <project path="device/lge/mako-kernel" name="android_kernel_lge_mako" groups="device,mako" remote="aospal" revision="aosp-mako" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
