@@ -47,7 +47,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="aospa" revision="kitkat" >
+  <project path="build" name="android_build" remote="aospal" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -408,7 +408,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
- <project path="vendor/pa" name="android_vendor_pa" remote="aospa" revision="kitkat" >
+ <project path="vendor/pa" name="android_vendor_pa" remote="aospal" revision="kitkat-remix" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
