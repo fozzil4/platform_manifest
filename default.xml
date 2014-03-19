@@ -21,13 +21,13 @@
     <copyfile src="lazyOthers.sh" dest="lazyOthers.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="art" name="Velocity-Project/art" remote="github" revision="new" />
+  <project path="bionic" name="Velocity-Project/bionic" remote="github" revision="new" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="Velocity-Project/dalvik" remote="github" revision="new" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -211,7 +211,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="Velocity-Project/skia" remote="github" revision="new" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -242,7 +242,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="fozzil4/android_frameworks_base" remote="github" revision="kk" />
+  <project path="frameworks/base" name="MrBaNkS/android_frameworks_base" remote="github" revision="kk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -315,7 +315,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="MrBaNkS/android_packages_apps_Mms" remote="github" revision="kk" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -324,7 +324,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="fozzil4/android_packages_apps_settings" remote="github" revision="kk"/>
+  <project path="packages/apps/Settings" name="MrBaNkS/android_packages_apps_Settings" remote="github" revision="kk" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
