@@ -242,7 +242,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="fozzil4/platform_frameworks_base" remote="github" revision="kitkat-mr1.1-release" />
+  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="c0d54c516891d0b80133d167551becc26d7a462d" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -325,7 +325,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="fozzil4/platform_packages_apps_settings" remote="github" revision="kitkat-mr1.1-release" />
+  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="b27cd0ebf5bb595d3b621e2c6c7f4ea9bf03579b" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
