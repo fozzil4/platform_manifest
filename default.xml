@@ -340,7 +340,7 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/linux-x86/3.5" name="codefireXperiment/prebuilts_clang_linux-x86_3.5" remote="github" revision="develop_35" groups="linux,x86" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="linux" remote="aosp" revision="master" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
